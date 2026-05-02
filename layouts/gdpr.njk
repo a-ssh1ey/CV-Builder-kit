@@ -1,0 +1,14 @@
+<style>
+    .gdpr {
+        font-size: var(--font-size-small);
+        color: var(--color-text-muted);
+        margin: auto;
+        text-align: center;
+        padding-top: 20px;
+    }
+</style>
+{% if local.gdpr %}
+    <div class="gdpr">
+        {{ local.gdpr }}
+    </div>
+{% endif %}

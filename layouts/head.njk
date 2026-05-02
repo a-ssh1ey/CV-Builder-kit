@@ -1,0 +1,37 @@
+<style>
+    .head-section {
+        background-color: var(--color-primary);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 18px 24px;
+    }
+    .head-section .name {
+        color: var(--color-white);
+        font-size: var(--font-size-name);
+        font-weight: var(--font-weight-bold);
+    }
+    .head-section .job-title {
+        color: var(--color-muted);
+        font-size: 15px;
+    }
+    .head-section .contacts {
+        color: var(--color-muted);
+        font-size: 12px;
+        margin-top: 4px;
+    }
+</style>
+<div class="head-section">
+    <div class="text">
+        <div class="name">
+            {{ local.name | upper }}
+        </div>
+        <div class="job-title">
+            {{ local.job_title }}
+        </div>
+        <div class="contacts">
+            {{ local.phone }}&nbsp; • {{ local.email }}&nbsp; • {{ local.location }}
+        </div>
+    </div>
+</div>

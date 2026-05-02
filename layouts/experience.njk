@@ -1,0 +1,91 @@
+<style>
+    .exp-proj.section {
+        margin-bottom: var(--spacing-section);
+    }
+    .exp-proj .title {
+        margin-bottom: var(--spacing-lg);
+        padding-bottom: var(--spacing-xs);
+        border-bottom: var(--border-section);
+        font-size: var(--font-size-section-title);
+        font-weight: var(--font-weight-bold);
+        line-height: var(--line-height-title);
+        color: var(--color-primary);
+        text-transform: uppercase;
+    }
+    .exp-proj .firm {
+        margin-bottom: var(--spacing-xl);
+    }
+    .exp-proj .firm-title {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: var(--spacing-sm);
+        margin-bottom: 5px;
+        font-size: var(--font-size-medium);
+        line-height: 1.25;
+        color: var(--color-text-main);
+    }
+    .exp-proj .position {
+        font-weight: var(--font-weight-bold);
+    }
+    .exp-proj .firm-name {
+        font-size: var(--font-size-medium);
+        font-weight: var(--font-weight-semibold);
+        color: var(--color-primary);
+    }
+    .exp-proj .dates {
+        font-size: var(--font-size-medium);
+        color: var(--color-text-muted);
+    }
+    .exp-proj .separator {
+        color: var(--color-text-muted);
+    }
+    .exp-proj .responsibilities {
+        margin-top: var(--spacing-sm);
+    }
+    .exp-proj .responsibility-item {
+        display: flex;
+        align-items: flex-start;
+        gap: var(--spacing-md);
+        margin-bottom: var(--spacing-xs);
+        font-size: var(--font-size-medium);
+        line-height: var(--line-height-text);
+        color: var(--color-text-secondary);
+    }
+    .exp-proj .responsibility-marker {
+        flex: 0 0 auto;
+        margin-top: 1px;
+        font-size: var(--font-size-marker);
+        line-height: var(--line-height-text);
+        color: var(--color-primary);
+    }
+    .exp-proj .responsibility-text {
+        flex: 1;
+    }
+</style>
+<div class="exp-proj section">
+    <div class="title">{{ local.experience.title }}</div>
+    {% for firm in local.experience.firms %}
+        <div class="firm">
+            <div class="firm-title">
+                <div class="position">{{ firm.position }}</div>
+                <span class="separator">|</span>
+                <div class="firm-name">{{ firm.firm }}</div>
+                <span class="separator">|</span>
+                <div class="dates">
+                    <i>{{ firm.date_start }} – {{ firm.date_finish }}</i>
+                </div>
+            </div>
+            {% if firm.items %}
+                <div class="responsibilities">
+                    {% for item in firm.items %}
+                        <div class="responsibility-item">
+                            <span class="responsibility-marker">▸</span>
+                            <span class="responsibility-text">{{ item }}</span>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,154 @@
+{
+  "job_title": "Front-End Developer",
+  "profile": {
+    "title": "PROFIL ZAWODOWY",
+    "text": "Proaktywna i zorientowana na szczegóły osoba z praktycznym doświadczeniem w prowadzeniu projektów IT — od inicjowania przez realizację po zamknięcie. Doświadczenie w utrzymaniu artefaktów projektowych (harmonogramy, rejestry ryzyk/problemów/zmian, listy akcji, protokoły), koordynacji zadań między zespołami oraz przygotowywaniu materiałów statusowych dla interesariuszy. Na co dzień pracuje z Jira, Confluence, MS Office i SharePoint. Zna pojęcia cyklu życia projektu: zakres, harmonogram, ryzyko, zmiana, kamień milowy, interesariusze. Studentka III roku Zarządzania na UW; dyspozycyjność 30h+ tygodniowo."
+  },
+  "experience": {
+    "title": "DOŚWIADCZENIE ZAWODOWE",
+    "firms": [
+      {
+        "title": "Administrator systemów IT i koordynator projektów",
+        "firm": "ProfiHand sp. z o.o.",
+        "position": "Administrator systemów IT i koordynator projektów",
+        "date_start": "07/2025",
+        "date_finish": "obecnie",
+        "items": [
+          "Wdrożenie wewnętrznej platformy e-learningowej na Moodle: zebranie wymagań, konfiguracja środowiska, uruchomienie produkcyjne, szkolenie użytkowników — projekt zrealizowany samodzielnie, w terminie.",
+          "Wdrożenie bota do komunikacji z kandydatami i zbierania danych rekrutacyjnych: koordynacja dostawcy zewnętrznego, zarządzanie ryzykiem i harmonogramem, testy UAT, go-live — skrócenie czasu pracy rekruterów o 30%.",
+          "Automatyzacja procesów biznesowych z wykorzystaniem Make.com: mapowanie procesów, projektowanie i wdrożenie przepływów pracy, walidacja i iteracyjne usprawnienia — ograniczenie pracy manualnej.",
+          "Konfiguracja i utrzymanie integracji CRM (Planfix) z Virtual PBX; obsługa systemu Hrappka (dane kandydatów, statusy, wsparcie procesów rekrutacyjnych).",
+          "Rozwój, optymalizacja i bieżące utrzymanie stron WordPress: aktualizacje, poprawki, usprawnienia funkcjonalne.",
+          "Koordynacja zadań między członkami zespołu i dostawcami zewnętrznymi; raportowanie statusu projektów bezpośrednio do zarządu."
+        ]
+      },
+      {
+        "title": "Project Manager / Front-End Developer | Clever ZNO, Kijów",
+        "firm": "Clever ZNO",
+        "position": "Project Manager / Front-End Developer",
+        "date_start": "2024",
+        "date_finish": "2025",
+        "items": [
+          "Prowadzenie projektu produktowego ed-tech end-to-end: definiowanie roadmapy, zarządzanie backlogiem, planowanie sprintów, kontrola zakresu i harmonogramu (Agile/Scrum).",
+          "Organizacja i prowadzenie spotkań projektowych: przygotowywanie agend, protokołów i list akcji z przypisanymi właścicielami i terminami; follow-up po spotkaniach.",
+          "Koordynacja zespołu cross-funkcyjnego (FE/BE developerzy, graficy): monitorowanie postępu, rozwiązywanie blokad, zapewnienie terminowej realizacji."
+        ]
+      },
+      {
+        "title": "Dziennikarz i reporter multimedialny | Wiadomości Połtawszczyzny, Ukraina",
+        "firm": "Wiadomości Połtawszczyzny",
+        "position": "Dziennikarz i reporter multimedialny",
+        "date_start": "2023",
+        "date_finish": "2023",
+        "items": [
+          "Realizacja materiałów redakcyjnych pod presją czasu — rozwinięcie kompetencji organizacyjnych, dokładności i komunikacji."
+        ]
+      }
+    ]
+  },
+  "competencies": {
+    "title": "KLUCZOWE KOMPETENCJE",
+    "competencies": [
+      "Prowadzenie i aktualizacja artefaktów projektowych",
+      "Przygotowywanie agend, protokołów i follow-up",
+      "Koordynacja zadań, monitorowanie terminów, eskalacja",
+      "Wsparcie UAT i dokumentacja projektowa",
+      "Wielozadaniowość, priorytetyzacja, samodzielność",
+      "Współpraca z biznesem, IT i dostawcami"
+    ]
+  },
+  "tools": {
+    "title": "NARZĘDZIA I TECHNOLOGIE",
+    "groups": [
+      {
+        "title": "Zarządzanie projektami",
+        "items": [
+          "Jira",
+          "Confluence",
+          "MS SharePoint",
+          "Azure DevOps (podstawy)",
+          "MS Project (podstawy)"
+        ]
+      },
+      {
+        "title": "MS Office",
+        "items": [
+          "Excel (zaawansowany)",
+          "PowerPoint",
+          "Word",
+          "Teams"
+        ]
+      },
+      {
+        "title": "Systemy / Automatyzacja",
+        "items": [
+          "Make.com",
+          "CRM Planfix",
+          "Hrappka",
+          "Virtual PBX",
+          "Moodle",
+          "WordPress",
+          "REST API"
+        ]
+      },
+      {
+        "title": "Techniczne",
+        "items": [
+          "SQL",
+          "JavaScript (Vue/Nuxt, React)",
+          "HTML5/CSS3",
+          "Git",
+          "Python (podstawy)"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "WYKSZTAŁCENIE",
+    "groups": [
+      {
+        "title": "Licencjat z Zarządzania (w trakcie)",
+        "university": "Uniwersytet Warszawski",
+        "university_comment": "",
+        "years": "2024 – 2027",
+        "comment": "III rok (na czas stażu)"
+      }
+    ]
+  },
+  "languages": {
+    "title": "JĘZYKI",
+    "languages": [
+      {
+        "title": "PL",
+        "language": "Polski",
+        "level": "C1",
+        "comment": "certyfikat państwowy"
+      },
+      {
+        "title": "EN",
+        "language": "Angielski",
+        "level": "C1",
+        "comment": ""
+      },
+      {
+        "title": "DE",
+        "language": "Niemiecki",
+        "level": "B1",
+        "comment": ""
+      },
+      {
+        "title": "UK",
+        "language": "Ukraiński",
+        "level": "ojczysty",
+        "comment": ""
+      },
+      {
+        "title": "RU",
+        "language": "Rosyjski",
+        "level": "ojczysty",
+        "comment": ""
+      }
+    ]
+  },
+  "gdpr": "Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji, zgodnie z ustawą z dnia 10 maja 2018 r. o ochronie danych osobowych oraz RODO."
+}

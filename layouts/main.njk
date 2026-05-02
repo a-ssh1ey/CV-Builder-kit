@@ -1,0 +1,23 @@
+<style>
+    .block {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main {
+        padding: 0 20px;
+    }
+</style>
+<div class="main">
+    {% include "layouts/head.njk" %}
+    {% include "layouts/profile.njk" %}
+    {% include "layouts/experience.njk" %}
+    <div class="block">
+        {% include "layouts/competencies.njk" %}
+        {% include "layouts/technologies.njk" %}
+    </div>
+    <div class="block">
+        {% include "layouts/education.njk" %}
+        {% include "layouts/languages.njk" %}
+    </div>
+    {% include "layouts/gdpr.njk" %}
+</div>
