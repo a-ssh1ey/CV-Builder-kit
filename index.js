@@ -14,12 +14,17 @@ nunjucks.configure(templatesPath, {
   noCache: true
 });
 
-function safeFileName(value) {
-  return String(value || "")
+function safeFileName(value, maxLength = 150) {
+  const cleaned = String(value || "")
     .replace(/[<>:"/\\|?*\x00-\x1F]/g, "")
     .replace(/\s+/g, " ")
-    .trim()
-    .slice(0, 150);
+    .trim();
+
+  if (cleaned.length <= maxLength) {
+    return cleaned;
+  }
+
+  return cleaned.slice(0, maxLength - 1).trimEnd() + ".";
 }
 
 function addPdfStyles(html) {
@@ -58,16 +63,23 @@ async function generate() {
 
   const outputDir = path.join(__dirname, "output");
 
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
+  const companyName = safeFileName(
+    resume.company_name || "Unknown company"
+  );
+
+  const companyOutputDir = path.join(outputDir, companyName);
+
+  if (!fs.existsSync(companyOutputDir)) {
+    fs.mkdirSync(companyOutputDir, { recursive: true });
   }
 
   const fileName = safeFileName(
-    `${basic.name || "CV"} - ${resume.job_title || "Resume"}`
+    `${basic.name || "CV"} - ${resume.job_title || "Resume"}`,
+    50
   );
 
-  const outputHtmlPath = path.join(outputDir, `${fileName}.html`);
-  const outputPdfPath = path.join(outputDir, `${fileName}.pdf`);
+  const outputHtmlPath = path.join(companyOutputDir, `${fileName}.html`);
+  const outputPdfPath = path.join(companyOutputDir, `${fileName}.pdf`);
 
   const htmlForPdf = addPdfStyles(html);
 

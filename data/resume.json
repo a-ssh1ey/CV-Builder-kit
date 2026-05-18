@@ -1,26 +1,29 @@
 {
-  "job_title": "Administrator Systemow HR / Specjalista ds. Wdrozenia HRIS",
+  "company_name": "Apius Technologies SA",
+  "job_title": "Specjalista ds. wsparcia IT / Młodszy administrator systemów IT",
   "profile": {
     "title": "PROFIL ZAWODOWY",
-    "text": "Proaktywna i zorientowana na szczegoly specjalistka z praktycznym doswiadczeniem w administrowaniu systemami HR i IT — w tym ATS (Hrappka), CRM (Planfix) z integracja Virtual PBX, platformy e-learningowej (Moodle) oraz automatyzacji procesow (Make.com). Doswiadczenie w przygotowywaniu i imporcie danych w Excelu, tworzeniu dokumentacji i instrukcji uzytkownikow, a takze we wspieraniu uzytkownikow w kwestiach technicznych. Brala udzial w samodzielnym wdrozeniu platformy Moodle i bota rekrutacyjnego — od zebrania wymagan po go-live i szkolenia. Biegle komunikuje sie po angielsku i polsku. Studentka II roku Zarzadzania na UW; proaktywna postawa i naturalne podejscie 'can do'."
+    "text": "Proaktywna i zorientowana na szczegóły osoba z praktycznym doświadczeniem w administracji systemami IT, wsparciu użytkowników i automatyzacji procesów. Na co dzień pracuje z Microsoft 365, SharePoint, Jira i Confluence. Wdrażała i utrzymywała platformy (WordPress, Moodle), integrowała systemy (CRM Planfix, Virtual PBX), budowała automatyzacje w Make.com oraz wdrożyła bota IT wspomagającego procesy rekrutacyjne. Zna podstawy sieci, systemy Windows i Linux na poziomie administracyjnym. Studentka II roku Zarządzania na Uniwersytecie Warszawskim — dostępna min. 32 h tygodniowo, elastyczny grafik."
   },
   "experience": {
-    "title": "DOSWIADCZENIE ZAWODOWE",
+    "title": "DOŚWIADCZENIE ZAWODOWE",
     "firms": [
       {
-        "title": "Administrator Systemow IT / Administrator Systemow HR",
+        "title": "Administrator Systemów IT",
         "firm": "ProfiHand sp. z o.o.",
-        "position": "Administrator Systemow IT / Administrator Systemow HR",
+        "position": "Administrator Systemów IT",
         "date_start": "07/2025",
         "date_finish": "obecnie",
         "items": [
-          "Biezaca administracja systemem ATS (Hrappka): zarzadzanie danymi kandydatow, aktualizacja statusow, wsparcie merytoryczne i techniczne uzytkownikow systemu w codziennych zadaniach rekrutacyjnych.",
-          "Konfiguracja i utrzymanie integracji CRM Planfix z Virtual PBX: administracja systemem, rozwiazywanie problemow technicznych, wsparcie uzytkownikow w kwestiach funkcjonalnosci.",
-          "Samodzielne wdrozenie wewnetrznej platformy e-learningowej na Moodle: zebranie wymagan, konfiguracja srodowiska, uruchomienie produkcyjne, tworzenie dokumentacji i instrukcji, szkolenie uzytkownikow.",
-          "Wdrozenie bota do komunikacji z kandydatami i zbierania danych rekrutacyjnych: koordynacja dostawcy zewnetrznego, testy systemowe, zglaszanie bledow, go-live — skrocenie czasu pracy rekruterow o 30%.",
-          "Praca z danymi HR w Excelu i CSV: przygotowywanie, weryfikacja i import danych do systemow; raportowanie statusow i wynikow procesow rekrutacyjnych.",
-          "Automatyzacja procesow biznesowych z wykorzystaniem Make.com: mapowanie procesow, projektowanie i wdrozenie przepływow pracy, ograniczenie pracy manualnej.",
-          "Rozwoj, optymalizacja i biezace utrzymanie stron WordPress; wspolpraca z zespolem HR i IT przy codziennych zadaniach operacyjnych."
+          "Bieżące wsparcie użytkowników w zakresie systemów i narzędzi IT; konfiguracja i utrzymanie środowisk roboczych na systemach Windows.",
+          "Administracja i utrzymanie integracji Microsoft 365 (SharePoint, Teams, OneDrive) — zarządzanie uprawnieniami, wsparcie użytkowników, rozwiązywanie błędów.",
+          "Zarządzanie i wsparcie narzędzi Jira i Confluence: konfiguracja przestrzeni, zarządzanie użytkownikami, pomoc zespołom w codziennej obsłudze.",
+          "Wdrożenie bota do komunikacji z kandydatami i automatycznego zbierania danych rekrutacyjnych (Make.com + REST API + AI): koordynacja wdrożenia, testy, go-live — skrócenie czasu pracy rekruterów o 30%.",
+          "Budowa i utrzymanie automatyzacji procesów biznesowych w Make.com: mapowanie procesów, projektowanie i wdrożenie przepływów pracy, iteracyjne usprawnienia.",
+          "Konfiguracja i utrzymanie integracji CRM Planfix z Virtual PBX; obsługa systemu Hrappka (dane kandydatów, statusy, wsparcie procesów rekrutacyjnych).",
+          "Wdrożenie wewnętrznej platformy e-learningowej Moodle: konfiguracja serwera (Linux), instalacja, uruchomienie produkcyjne, szkolenie użytkowników.",
+          "Rozwój, optymalizacja i bieżące utrzymanie stron WordPress: aktualizacje, poprawki, usprawnienia funkcjonalne — utrzymanie stabilności środowiska produkcyjnego.",
+          "Podstawowa diagnostyka problemów sprzętowych i sieciowych; przygotowywanie sprzętu i kont dla nowych pracowników."
         ]
       },
       {
@@ -30,20 +33,19 @@
         "date_start": "2024",
         "date_finish": "2025",
         "items": [
-          "Projektowanie i wdrozenie responsywnych interfejsow uzytkownika; tworzenie aplikacji w Vue + Nuxt z integracja API.",
-          "Zarzadzanie produktem ed-tech: definiowanie wymagan, prowadzenie backlogu, koordynacja zespolu cross-funkcyjnego (developerzy, graficy, nauczyciele).",
-          "Tworzenie i optymalizacja tresci landing page pod katem grupy docelowej; podstawowa optymalizacja SEO.",
-          "Komunikacja z interesariuszami, dokumentowanie wymagan i postepow prac."
+          "Projektowanie i wdrażanie responsywnych interfejsów użytkownika w Vue.js / Nuxt; integracja front-endu z REST API.",
+          "Zarządzanie produktem ed-tech: definiowanie roadmapy, backlogu i harmonogramów; koordynacja zespołu cross-funkcyjnego (developerzy, graficy, nauczyciele).",
+          "Podstawowa optymalizacja SEO oraz tworzenie i redagowanie treści landing page dopasowanych do grupy docelowej."
         ]
       },
       {
         "title": "Dziennikarz i reporter multimedialny (praca sezonowa)",
-        "firm": "Wiadomosci Poltawszczyzny",
+        "firm": "Wiadomości Połtawszczyzny",
         "position": "Dziennikarz i reporter multimedialny",
         "date_start": "06/2023",
         "date_finish": "08/2023",
         "items": [
-          "Pisanie artykulow i reportazy dla regionalnego portalu informacyjnego; prowadzenie wywiadow; produkcja materialow fotograficznych i wideo — rozwinięcie kompetencji komunikacyjnych, badawczych i organizacyjnych (praca sezonowa)."
+          "Pisanie artykułów i reportaży dla regionalnego portalu informacyjnego; przeprowadzanie wywiadów; produkcja materiałów foto i wideo — rozwój kompetencji komunikacyjnych i organizacyjnych pod presją czasu."
         ]
       }
     ]
@@ -51,72 +53,72 @@
   "competencies": {
     "title": "KLUCZOWE KOMPETENCJE",
     "competencies": [
-      "Administracja systemami HR i ATS (Hrappka, CRM Planfix)",
-      "Wdrozenie i konfiguracja systemow e-learningowych (Moodle)",
-      "Praca z danymi HR w Excelu i CSV: import, eksport, edycja",
-      "Tworzenie dokumentacji i instrukcji dla uzytkownikow",
-      "Wsparcie uzytkownikow w kwestiach technicznych i merytorycznych",
-      "Testowanie systemow, zglaszanie bledow, wspolpraca z IT",
-      "Automatyzacja procesow (Make.com), raportowanie",
-      "Wspolpraca z dzialami HR, IT i dostawcami zewnetrznymi"
+      "Wsparcie użytkowników i administracja systemami IT",
+      "Administracja Microsoft 365 (SharePoint, Teams, OneDrive, Exchange Online)",
+      "Zarządzanie Jira i Confluence",
+      "Automatyzacja procesów (Make.com, REST API, narzędzia AI)",
+      "Konfiguracja i utrzymanie środowisk (Windows, Linux podstawy)",
+      "Wdrażanie i utrzymanie platform (WordPress, Moodle)",
+      "Diagnostyka problemów sprzętowych i sieciowych",
+      "Dokumentacja techniczna i wsparcie wdrożeń"
     ]
   },
   "tools": {
-    "title": "NARZEDZIA I TECHNOLOGIE",
+    "title": "NARZĘDZIA I TECHNOLOGIE",
     "groups": [
       {
-        "title": "Systemy HR / ATS / e-learning",
+        "title": "Microsoft 365 i współpraca",
         "items": [
-          "Hrappka (ATS)",
-          "CRM Planfix",
-          "Virtual PBX",
-          "Moodle"
-        ]
-      },
-      {
-        "title": "Automatyzacja i integracje",
-        "items": [
-          "Make.com",
-          "REST API",
-          "WordPress"
-        ]
-      },
-      {
-        "title": "MS Office / Dane",
-        "items": [
+          "SharePoint",
+          "Teams",
+          "OneDrive",
+          "Exchange Online (podstawy)",
           "Excel (zaawansowany)",
           "Word",
-          "PowerPoint",
-          "Teams",
-          "SQL"
+          "PowerPoint"
         ]
       },
       {
-        "title": "Zarzadzanie i wspolpraca",
+        "title": "Zarządzanie projektami i dokumentacja",
         "items": [
           "Jira",
           "Confluence",
           "MS SharePoint",
-          "Azure DevOps (podstawy)",
-          "MS Project (podstawy)"
+          "Azure DevOps (podstawy)"
+        ]
+      },
+      {
+        "title": "Systemy i automatyzacja",
+        "items": [
+          "Make.com",
+          "CRM Planfix",
+          "Virtual PBX",
+          "Hrappka",
+          "Moodle",
+          "WordPress",
+          "REST API"
         ]
       },
       {
         "title": "Techniczne",
         "items": [
-          "HTML5/CSS3",
+          "Windows (administracja)",
+          "Linux (podstawy)",
+          "Python (podstawy)",
+          "SQL",
           "JavaScript (Vue/Nuxt)",
+          "HTML5 / CSS3",
           "Git",
-          "Python (podstawy)"
+          "Docker (podstawy)"
         ]
       }
     ]
   },
   "education": {
-    "title": "WYKSZTALCENIE",
+    "title": "WYKSZTAŁCENIE",
     "groups": [
       {
-        "title": "Licencjat z Zarzadzania (w trakcie)",
+        "title": "Licencjat z Zarządzania (w trakcie)",
         "university": "Uniwersytet Warszawski",
         "university_comment": "",
         "years": "2024 - 2027",
@@ -125,13 +127,13 @@
     ]
   },
   "languages": {
-    "title": "JEZYKI",
+    "title": "JĘZYKI",
     "languages": [
       {
         "title": "PL",
         "language": "Polski",
         "level": "C1",
-        "comment": "certyfikat panstwowy"
+        "comment": "certyfikat państwowy"
       },
       {
         "title": "EN",
@@ -147,7 +149,7 @@
       },
       {
         "title": "UK",
-        "language": "Ukrainski",
+        "language": "Ukraiński",
         "level": "ojczysty",
         "comment": ""
       },
@@ -159,5 +161,5 @@
       }
     ]
   },
-  "gdpr": "Wyrazam zgode na przetwarzanie moich danych osobowych dla potrzeb niezbednych do realizacji procesu rekrutacji, zgodnie z ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych oraz RODO."
+  "gdpr": "Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji, zgodnie z ustawą z dnia 10 maja 2018 r. o ochronie danych osobowych oraz RODO."
 }
